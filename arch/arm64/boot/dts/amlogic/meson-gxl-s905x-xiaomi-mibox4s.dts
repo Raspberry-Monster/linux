@@ -341,5 +341,6 @@
 };
 
 &vdec {
-	compatible = "amlogic,gx-vdec";
+	compatible = "amlogic,gxl-vdec", "amlogic,gx-vdec";
+	status = "okay";
 };
